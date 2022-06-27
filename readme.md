@@ -1,3 +1,5 @@
+# Udemy Course
+- [Design Patterns in C# and .NET][2]
 # install .net 6.0
 - [Download link][1]
 - Check install successful
@@ -27,3 +29,4 @@
     dotnet build -c release
  ```
 [1]: https://dotnet.microsoft.com/en-us/download
+[2]: https://www.udemy.com/course/design-patterns-csharp-dotnet/
