@@ -31,7 +31,7 @@ class Persistence<T>
     {
         if (overwrite || !File.Exists(fileName))
         {
-            File.WriteAllText(fileName, content.ToString());
+            File.WriteAllText(fileName, content!.ToString());
         }
     }
 }
@@ -41,6 +41,7 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Single Responsibility");
+        Console.WriteLine("");
 
         var j = new Journal();
         j.AddEntry("I cried today");
