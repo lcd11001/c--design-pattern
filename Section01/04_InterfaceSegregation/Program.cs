@@ -5,6 +5,7 @@ public class Document
 
 }
 
+// bad design: don't put too much into an interface; split into seperate interfaces
 public interface IMachine
 {
     void Print(Document d);

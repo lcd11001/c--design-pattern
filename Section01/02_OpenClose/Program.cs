@@ -24,6 +24,7 @@ public class Product
     }
 }
 
+// bad design: open for extension, but closed for modification
 public class ProductFilter
 {
     public IEnumerable<Product> FilterBySize(IEnumerable<Product> products, Size size)
