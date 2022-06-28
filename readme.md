@@ -28,5 +28,10 @@
  ```sh
     dotnet build -c release
  ```
+
+ ## References
+ - [Youtube Vietnamese][3]
+ - 
 [1]: https://dotnet.microsoft.com/en-us/download
 [2]: https://www.udemy.com/course/design-patterns-csharp-dotnet/
+[3]: https://www.youtube.com/watch?v=pFxv-8Inu2U&list=PLBAic7KjrRUBkqseBit_RyJtyFrg6uHY-&ab_channel=DOTNETVN
